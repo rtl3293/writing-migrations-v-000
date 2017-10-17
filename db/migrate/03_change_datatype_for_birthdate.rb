@@ -1,7 +1,7 @@
 class ChangeDataBaseForBirthdate < ActiveRecord::Migration
 
   def change
-    add_column :students, :birthdate, :datetime
+    update_column :students, :birthdate, :datetime
   end
 
 end
